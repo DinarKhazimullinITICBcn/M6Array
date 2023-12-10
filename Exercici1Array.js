@@ -20,151 +20,79 @@ function funcionsArray() {
     let colors = ["verd", "vermell", "groc", "blau", "negre", "blanc"];
     document.write("<h1>Exemples de funcions de Arrays</h1>");
     // at()
-    document.write("at() ->");
-    document.write(" Retorna l'element d'un array en una posició determinada. ->");
-    document.write(" Exemple: colors.at(2) -> " + colors.at(2) + "<br>");
+    document.write('<p>' + "at() ->" + " Retorna l'element d'un array en una posició determinada. ->" + " Exemple: colors.at(2) -> " + colors.at(2) + '</p>');
     // concat()
-    document.write("concat() ->");
-    document.write(" Uneix arrays i retorna un array amb els arrays units. ->");
-    document.write(" Exemple: colors.concat(['marró', 'rosa']) ->" + colors.concat(["marró", "rosa"]) + "<br>");
+    document.write('<p>' + "concat() ->" + " Uneix arrays i retorna un array amb els arrays units. ->" + " Exemple: colors.concat(['marró', 'rosa']) ->" + colors.concat(["marró", "rosa"]) + '</p>');
     // constructor
-    document.write("constructor ->");
-    document.write(" Retorna la funció que va crear el prototip de l'objecte Array. ->");
-    document.write(" Exemple: colors.constructor -> " + colors.constructor + "<br>");
+    document.write('<p>' + "constructor ->" + " Retorna la funció que va crear el prototip de l'objecte Array. ->" + " Exemple: colors.constructor -> " + colors.constructor + '</p>');
     // copyWithin()
-    document.write("copyWithin() ->");
-    document.write(" Copia elements d'un array dins del mateix array, des i cap a posicions especificades. ->");
-    document.write(" Exemple: colors.copyWithin(0, 3, 5) -> " + colors.copyWithin(0, 3, 5) + "<br>");
+    document.write('<p>' + "copyWithin() ->" + " Copia elements d'un array dins del mateix array, des i cap a posicions especificades. ->" + " Exemple: colors.copyWithin(0, 3, 5) -> " + colors.copyWithin(0, 3, 5) + '</p>');
     // entries()
-    document.write("entries() ->");
-    document.write(" Retorna un objecte d'iteració d'array amb parells clau/valor. ->");
-    document.write(" Exemple: colors.entries() -> " + colors.entries() + "<br>");
+    document.write('<p>' + "entries() ->" + " Retorna un objecte d'iteració d'array amb parells clau/valor. ->" + " Exemple: colors.entries() -> " + colors.entries() + '</p>');
     // every() 
-    document.write("every() ->");
-    document.write(" Comprova si tots els elements d'un array passen una prova. ->");
-    document.write(" Exemple: colors.every(color => color.length > 3) -> " + colors.every(color => color.length > 3) + "<br>");
+    document.write('<p>' + "every() ->" + " Comprova si tots els elements d'un array passen una prova. ->" + " Exemple: colors.every(color => color.length > 3) -> " + colors.every(color => color.length > 3) + '</p>');
     // fill()
-    document.write("fill() ->");
-    document.write(" Omple els elements d'un array amb un valor estàtic. ->");
-    document.write(" Exemple: colors.fill('gris') -> " + colors.fill('gris') + "<br>");
+    document.write('<p>' + "fill() ->" + " Omple els elements d'un array amb un valor estàtic. ->" + " Exemple: colors.fill('gris') -> " + colors.fill('gris') + '</p>');
     // filter()
-    document.write("filter() ->");
-    document.write(" Crea un nou array amb cada element d'un array que passa una prova. ->");
-    document.write(" Exemple: colors.filter(color => color < 'marró') -> " + colors.filter(color => color < 'marró') + "<br>");
+    document.write('<p>' + "filter() ->" + " Crea un nou array amb cada element d'un array que passa una prova. ->" + " Exemple: colors.filter(color => color < 'marró') -> " + colors.filter(color => color < 'marró') + '</p>');
     // find()
-    document.write("find() ->");
-    document.write(" Retorna el valor del primer element d'un array que passa una prova. ->");
-    document.write(" Exemple: colors.find(color => color.startsWith('v')) -> " + colors.find(color => color.startsWith('v')) + "<br>");
+    document.write('<p>' + "find() ->" + " Retorna el valor del primer element d'un array que passa una prova. ->" + " Exemple: colors.find(color => color.startsWith('v')) -> " + colors.find(color => color.startsWith('v')) + '</p>');
     // findIndex()
-    document.write("findIndex() ->");
-    document.write(" Retorna l'índex del primer element d'un array que passa una prova. ->");
-    document.write(" Exemple: colors.findIndex(color => color.endsWith('l')) -> " + colors.findIndex(color => color.endsWith('l')) + "<br>");
+    document.write('<p>' + "findIndex() ->" + " Retorna l'índex del primer element d'un array que passa una prova. ->" + " Exemple: colors.findIndex(color => color.endsWith('l')) -> " + colors.findIndex(color => color.endsWith('l')) + '</p>');
     // flat() 
-    document.write("flat() ->");
-    document.write(" Concatena els elements dels sub-arrays. ->");
-    document.write(" Exemple: [colors, ['marró', 'rosa']].flat() -> " + [colors, ['marró', 'rosa']].flat() + "<br>");
+    document.write('<p>' + "flat() ->" + " Concatena els elements dels sub-arrays. ->" + " Exemple: [colors, ['marró', 'rosa']].flat() -> " + [colors, ['marró', 'rosa']].flat() + '</p>');
     // flatMap()
-    document.write("flatMap() ->");
-    document.write(" Mapeja tots els elements d'un array i crea un nou array pla. ->");
-    document.write(" Exemple: colors.flatMap(color => [color, color.toUpperCase()]) -> " + colors.flatMap(color => [color, color.toUpperCase()]) + "<br>");
+    document.write('<p>' + "flatMap() ->" + " Mapeja tots els elements d'un array i crea un nou array pla. ->" + " Exemple: colors.flatMap(color => [color, color.toUpperCase()]) -> " + colors.flatMap(color => [color, color.toUpperCase()]) + '</p>');
     // forEach() 
-    document.write("forEach() ->");
-    document.write(" Crida una funció per a cada element d'un array. ->");
-    document.write(" Exemple: colors.forEach(color => document.write(color + ' ')) -> ");
+    document.write('<p>' + "forEach() ->" + " Crida una funció per a cada element d'un array. ->" + " Exemple: colors.forEach(color => document.write(color + ' ')) -> ");
     colors.forEach(color => document.write(color + ' '));
-    document.write("<br>");
+    document.write('</p>');
     // from()
-    document.write("from() ->");
-    document.write(" Crea un array a partir d'un objecte. ->");
-    document.write(" Exemple: Array.from('Hola') -> " + Array.from('Hola') + "<br>");
+    document.write('<p>' + "from() ->" + " Crea un array a partir d'un objecte. ->" + " Exemple: Array.from('Hola') -> " + Array.from('Hola') + '</p>');
     // includes()
-    document.write("includes() ->");
-    document.write(" Comprova si un array conté l'element especificat. ->");
-    document.write(" Exemple: colors.includes('vermell') -> " + colors.includes('vermell') + "<br>");
+    document.write('<p>' + "includes() ->" + " Comprova si un array conté l'element especificat. ->" + " Exemple: colors.includes('vermell') -> " + colors.includes('vermell') + '</p>');
     // indexOf()
-    document.write("indexOf() ->");
-    document.write(" Cerca l'array per a un element i retorna la seva posició. ->");
-    document.write(" Exemple: colors.indexOf('blau') -> " + colors.indexOf('blau') + "<br>");
+    document.write('<p>' + "indexOf() ->" + " Cerca l'array per a un element i retorna la seva posició. ->" + " Exemple: colors.indexOf('blau') -> " + colors.indexOf('blau') + '</p>');
     // isArray()
-    document.write("isArray() ->");
-    document.write(" Comprova si un objecte és un array. ->");
-    document.write(" Exemple: Array.isArray(colors) -> " + Array.isArray(colors) + "<br>");
+    document.write('<p>' + "isArray() ->" + " Comprova si un objecte és un array. ->" + " Exemple: Array.isArray(colors) -> " + Array.isArray(colors) + '</p>');
     // join()
-    document.write("join() ->");
-    document.write(" Uneix tots els elements d'un array en una cadena. ->");
-    document.write(" Exemple: colors.join(', ') -> " + colors.join(', ') + "<br>");
+    document.write('<p>' + "join() ->" + " Uneix tots els elements d'un array en una cadena. ->" + " Exemple: colors.join(', ') -> " + colors.join(', ') + '</p>');
     // keys()
-    document.write("keys() ->");
-    document.write(" Retorna un objecte d'iteració d'array, que conté les claus de l'array original. ->");
-    document.write(" Exemple: colors.keys() -> " + colors.keys() + "<br>");
+    document.write('<p>' + "keys() ->" + " Retorna un objecte d'iteració d'array, que conté les claus de l'array original. ->" + " Exemple: colors.keys() -> " + colors.keys() + '</p>');
     // lastIndexOf()
-    document.write("lastIndexOf() ->");
-    document.write(" Cerca l'array per a un element, començant pel final, i retorna la seva posició. ->");
-    document.write(" Exemple: colors.lastIndexOf('gris') -> " + colors.lastIndexOf('gris') + "<br>");
+    document.write('<p>' + "lastIndexOf() ->" + " Cerca l'array per a un element, començant pel final, i retorna la seva posició. ->" + " Exemple: colors.lastIndexOf('gris') -> " + colors.lastIndexOf('gris') + '</p>');
     // length 
-    document.write("length ->");
-    document.write(" Estableix o retorna el nombre d'elements d'un array. ->");
-    document.write(" Exemple: colors.length -> " + colors.length + "<br>");
+    document.write('<p>' + "length ->" + " Estableix o retorna el nombre d'elements d'un array. ->" + " Exemple: colors.length -> " + colors.length + '</p>');
     // map() 
-    document.write("map() ->");
-    document.write(" Crea un nou array amb el resultat de cridar una funció per a cada element d'un array. ->");
-    document.write(" Exemple: colors.map(color => color.length) -> " + colors.map(color => color.length) + "<br>");
+    document.write('<p>' + "map() ->" + " Crea un nou array amb el resultat de cridar una funció per a cada element d'un array. ->" + " Exemple: colors.map(color => color.length) -> " + colors.map(color => color.length) + '</p>');
     // pop()
-    document.write("pop() ->");
-    document.write(" Elimina l'últim element d'un array, i retorna aquest element. ->");
-    document.write(" Exemple: colors.pop() -> " + colors.pop() + "<br>");
+    document.write('<p>' + "pop() ->" + " Elimina l'últim element d'un array, i retorna aquest element. ->" + " Exemple: colors.pop() -> " + colors.pop() + '</p>');
     // prototype
-    document.write("prototype ->");
-    document.write(" Permet afegir propietats i mètodes a un objecte Array. ->");
-    document.write(" Exemple: Array.prototype.first = function() { return this[0]; }; colors.first() -> ");
+    document.write('<p>' + "prototype ->" + " Permet afegir propietats i mètodes a un objecte Array. ->" + " Exemple: Array.prototype.first = function() { return this[0]; }; colors.first() -> ");
     Array.prototype.first = function() { return this[0]; };
-    document.write(colors.first() + "<br>");
+    document.write(colors.first() + '</p>');
     // push()
-    document.write("push() ->");
-    document.write(" Afegeix nous elements al final d'un array, i retorna la nova longitud. ->");
-    document.write(" Exemple: colors.push('turquesa') -> " + colors.push('turquesa') + "<br>");
+    document.write('<p>' + "push() ->" + " Afegeix nous elements al final d'un array, i retorna la nova longitud. ->" + " Exemple: colors.push('turquesa') -> " + colors.push('turquesa') + '</p>');
     // reduce() 
-    document.write("reduce() ->");
-    document.write(" Redueix els valors d'un array a un sol valor (anant d'esquerra a dreta). ->");
-    document.write(" Exemple: colors.reduce((a, b) => a + b) -> " + colors.reduce((a, b) => a + b) + "<br>");
+    document.write('<p>' + "reduce() ->" + " Redueix els valors d'un array a un sol valor (anant d'esquerra a dreta). ->" + " Exemple: colors.reduce((a, b) => a + b) -> " + colors.reduce((a, b) => a + b) + '</p>');
     // reduceRight()
-    document.write("reduceRight() ->");
-    document.write(" Redueix els valors d'un array a un sol valor (anant de dreta a esquerra). ->");
-    document.write(" Exemple: colors.reduceRight((a, b) => a + b) -> " + colors.reduceRight((a, b) => a + b) + "<br>");
+    document.write('<p>' + "reduceRight() ->" + " Redueix els valors d'un array a un sol valor (anant de dreta a esquerra). ->" + " Exemple: colors.reduceRight((a, b) => a + b) -> " + colors.reduceRight((a, b) => a + b) + '</p>');
     // reverse()
-    document.write("reverse() ->");
-    document.write(" Inverteix l'ordre dels elements d'un array. ->");
-    document.write(" Exemple: colors.reverse() -> " + colors.reverse() + "<br>");
+    document.write('<p>' + "reverse() ->" + " Inverteix l'ordre dels elements d'un array. ->" + " Exemple: colors.reverse() -> " + colors.reverse() + '</p>');
     // shift()
-    document.write("shift() ->");
-    document.write(" Elimina el primer element d'un array, i retorna aquest element. ->");
-    document.write(" Exemple: colors.shift() -> " + colors.shift() + "<br>");
+    document.write('<p>' + "shift() ->" + " Elimina el primer element d'un array, i retorna aquest element. ->" + " Exemple: colors.shift() -> " + colors.shift() + '</p>');
     // slice() 
-    document.write("slice() ->");
-    document.write(" Selecciona una part d'un array, i retorna el nou array. ->");
-    document.write(" Exemple: colors.slice(1, 3) -> " + colors.slice(1, 3) + "<br>");
+    document.write('<p>' + "slice() ->" + " Selecciona una part d'un array, i retorna el nou array. ->" + " Exemple: colors.slice(1, 3) -> " + colors.slice(1, 3) + '</p>');
     // some() 
-    document.write("some() ->");
-    document.write(" Comprova si algun dels elements d'un array passa una prova. ->");
-    document.write(" Exemple: colors.some(color => color.length < 4) -> " + colors.some(color => color.length < 4) + "<br>");
+    document.write('<p>' + "some() ->" + " Comprova si algun dels elements d'un array passa una prova. ->" + " Exemple: colors.some(color => color.length < 4) -> " + colors.some(color => color.length < 4) + '</p>');
     // sort() 
-    document.write("sort() ->");
-    document.write(" Ordena els elements d'un array. ->");
-    document.write(" Exemple: colors.sort() -> " + colors.sort() + "<br>");
+    document.write('<p>' + "sort() ->" + " Ordena els elements d'un array. ->" + " Exemple: colors.sort() -> " + colors.sort() + '</p>');
     // splice() 
-    document.write("splice() ->");
-    document.write(" Afegeix/Elimina elements d'un array. ->");
-    document.write(" Exemple: colors.splice(2, 1, 'lila') -> " + colors.splice(2, 1, 'lila') + "<br>");
+    document.write('<p>' + "splice() ->" + " Afegeix/Elimina elements d'un array. ->" + " Exemple: colors.splice(2, 1, 'lila') -> " + colors.splice(2, 1, 'lila') + '</p>');
     // toString() 
-    document.write("toString() ->");
-    document.write(" Converteix un array en una cadena, i retorna el resultat. ->");
-    document.write(" Exemple: colors.toString() -> " + colors.toString() + "<br>");
+    document.write('<p>' + "toString() ->" + " Converteix un array en una cadena, i retorna el resultat. ->" + " Exemple: colors.toString() -> " + colors.toString() + '</p>');
     // unshift() 
-    document.write("unshift() ->");
-    document.write(" Afegeix nous elements al principi d'un array, i retorna la nova longitud. ->");
-    document.write(" Exemple: colors.unshift('taronja') -> " + colors.unshift('taronja') + "<br>");
+    document.write('<p>' + "unshift() ->" + " Afegeix nous elements al principi d'un array, i retorna la nova longitud. ->" + " Exemple: colors.unshift('taronja') -> " + colors.unshift('taronja') + '</p>');
     // valueOf() 
-    document.write("valueOf() ->");
-    document.write(" Retorna el valor primitiu d'un array. ->");
-    document.write(" Exemple: colors.valueOf() -> " + colors.valueOf() + "<br>");
+    document.write('<p>' + "valueOf() ->" + " Retorna el valor primitiu d'un array. ->" + " Exemple: colors.valueOf() -> " + colors.valueOf() + '</p>');
 }
